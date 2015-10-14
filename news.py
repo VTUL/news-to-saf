@@ -223,7 +223,7 @@ class NewsItem:
 
         with ZipFile(str(zip_path), 'a') as zip_file:
             for item in self.directory.iterdir():
-                zip_file.write(str(item))
+                zip_file.write(str(item), str(item.relative_to(self.base_path)))
 
 def DCValue(element, qualifier='none', value=None, language='en_US'):
     # Return an dcvalue element, with it's text and attributes set.
