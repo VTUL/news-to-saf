@@ -209,7 +209,7 @@ class NewsItem:
         dc_root.append(DCValue('contributor', qualifier='author', value=self.author))
         dc_root.append(DCValue('publisher', value='Virginia Tech. University Relations'))
         date_issued = self.date_issued.strftime('%Y-%m-%d')
-        dc_root.append(DCValue('date', qualifier='issued', value=date_issued, language=None))
+        dc_root.append(DCValue('date', qualifier='issued', value=date_issued))
         dc_root.append(DCValue('coverage', qualifier='spatial', value=self.spatial_coverage))
         for keyword in self.keywords:
             dc_root.append(DCValue('subject', value=keyword))
