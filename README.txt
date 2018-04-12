@@ -1,7 +1,11 @@
 This script processes a zipped folder of Virginia Tech News articles sent by Univeristy Relations.
-We parse them into individual HTML files with accompanying images, then batch import them into the VT New collection in VTechWorks, https://vtechworks.lib.vt.edu/handle/10919/19073. 
+We parse them into individual HTML files with accompanying images, 
+then batch import them into the VT New collection in VTechWorks, https://vtechworks.lib.vt.edu/handle/10919/19073. 
 
-University Relations has asked for a 5-year lag before harvest. This collection contains items from 2003-2010. Items were last loaded ~2015-10-29. Since University Relations now uses a different content management system for VT news, it’s unlikely they will ship us news in the same arrangements, so the script cannot be reused. They never authorize us to directly harvest VT News. To update this collection we may have to be in contact with University Relations again to see if they are willing to send us a new batch and allow us to archive their more recent items.
+University Relations has asked for a 5-year lag before harvest. 
+This collection contains items from 2003-2010. Items were last loaded ~2015-10-29. 
+Since University Relations now uses a different content management system for VT news, 
+we will have to modify the scrip. 
 
 Each item in the VT News collection, https://vtechworks.lib.vt.edu/handle/10919/19073, 
 contain an html file and associated image files. 
