@@ -39,6 +39,5 @@ Notes:
 
 https://wiki.duraspace.org/plugins/servlet/mobile?contentId=68064792#content/view/68064792
 
-and, in the “HTML content in items” section:
-
-https://wiki.duraspace.org/plugins/servlet/mobile?contentId=68064847#ApplicationLayer-HTMLContentinItems
+“HTML content in items”,
+https://wiki.duraspace.org/display/DSDOC5x/Application+Layer#ApplicationLayer-HTMLContentinItems
